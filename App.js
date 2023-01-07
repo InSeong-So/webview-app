@@ -1,11 +1,22 @@
-import { NativeBaseProvider, Box, Text } from 'native-base';
+import { NavigationContainer } from '@react-navigation/native';
+import WebView from "react-native-webview";
+import StatusBar from "./app/containers/StatusBar";
+import SafeAreaContext from "./app/containers/SafeAreaView";
 
 export default function App() {
+
+
   return (
-    <NativeBaseProvider>
-      <Box flex={1} alignSelf='center' justifyContent='center'>
-        <Text fontSize='lg'>Expo with NativeBase</Text>
-      </Box>
-    </NativeBaseProvider>
+    <NavigationContainer>
+    <SafeAreaContext>
+    <StatusBar/>
+    <WebView
+      source={{
+        uri: 'https://nu-angels.com',
+      }}
+      style={{marginTop: 20}}
+    />
+    </SafeAreaContext>
+    </NavigationContainer>
   );
 }
