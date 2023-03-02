@@ -17,7 +17,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "usesAppleSignIn": true
     },
     "android": {
       "adaptiveIcon": {
@@ -35,7 +36,8 @@
           "icon": "./local/assets/icon.png",
           "color": "#ffffff"
         }
-      ]
+      ],
+      "@react-native-google-signin/google-signin"
     ]
   }
 }
