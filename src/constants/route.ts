@@ -1,4 +1,5 @@
-export const 타겟_주소 = 'http://localhost:3000';
+// export const 타겟_주소 = 'http://localhost:3000';
+export const 타겟_주소 = 'https://www-alpha.nu-angels.com';
 
 export const 페이지 = {
   메인: '/',
@@ -8,10 +9,10 @@ export const 페이지 = {
   회원가입_SSO: '/signup/sso',
   비밀번호_찾기: '/help/password',
   비밀번호_재설정: '/help/password/[:id]',
-  마이페이지: '/mypage',
+  마이페이지: '/myPage',
   딜_메인: '/deal',
   딜_편집: '/deal/edit',
-  리드엔젤_메인: '/leadangel',
+  리드엔젤_메인: '/leadAngel',
   로그아웃: '/logout',
   포트폴리오: '/portfolio',
   스타트업: '/events?page=startups',

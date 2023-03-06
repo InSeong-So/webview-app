@@ -3,7 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 const SettingsStack = createStackNavigator();
 
-const SettingsStackScreen = () => {
+const SettingsStackScreens = () => {
   return (
     <SettingsStack.Navigator>
       <SettingsStack.Screen name="Settings" component={Settings} />
@@ -11,4 +11,4 @@ const SettingsStackScreen = () => {
   );
 };
 
-export default SettingsStackScreen;
+export default SettingsStackScreens;
