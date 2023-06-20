@@ -18,13 +18,17 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "usesAppleSignIn": true
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.nu-angels.NUAngels",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.inseongso.webviewapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,11 +37,15 @@
       [
         "expo-notifications",
         {
-          "icon": "./local/assets/icon.png",
+          "icon": "./assets/icon.png",
           "color": "#ffffff"
         }
-      ],
-      "@react-native-google-signin/google-signin"
-    ]
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bd59a567-3a2b-44f7-9d16-002c6a39f71b"
+      }
+    }
   }
 }

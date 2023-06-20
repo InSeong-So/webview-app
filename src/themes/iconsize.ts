@@ -1,4 +1,4 @@
-import { SCREEN_WIDTH } from '../utils/ScreenUtils';
+import { SCREEN_WIDTH } from '@/utils/ScreenUtils';
 
 export const IconSize = {
   sizeHeader: {

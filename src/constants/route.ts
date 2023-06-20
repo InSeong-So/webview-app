@@ -1,5 +1,5 @@
-// export const 타겟_주소 = 'http://localhost:3000';
-export const 타겟_주소 = 'https://www-alpha.nu-angels.com';
+export const 타겟_주소 = 'http://localhost:3000';
+// export const 타겟_주소 = 'https://www-alpha.nu-angels.com';
 
 export const 페이지 = {
   메인: '/',
